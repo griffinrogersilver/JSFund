@@ -30,7 +30,7 @@ function reverseString(string) {
 
 /**
  * accepts an object and returns an object with key and values switched
- * ex: reverseObject({a:1,b:"c","d":4}); -> {1:a,c:"b",4:"d"}
+ * ex: reverseObject({ a: 1, b: 'c', d: 4 }); -> { 1: 'a', 4: 'd', c: 'b' }
  */
 function reverseObject(object) {
 
