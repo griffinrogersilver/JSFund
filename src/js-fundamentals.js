@@ -185,7 +185,9 @@ function map(array, callback) {
 }
 
 /**
- * Iterates over elements of collection returning an array of all the elements callback returns truthy for.
+ * Iterates over elements of an object. 
+ If the object is an array, it returns an array of all the elements the callback returns truthy for. 
+ If the object is a collection, it returns a collection of all the values for which the callback function returns truthy for.
  * filter([1,2,3,4], (element, index, array) => {
  *  return element % 2 === 0;
  * }); → [2,4]
